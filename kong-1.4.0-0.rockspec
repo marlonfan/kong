@@ -37,14 +37,14 @@ dependencies = {
   "lua-resty-cookie == 0.1.0",
   "lua-resty-mlcache == 2.4.0",
   -- external Kong plugins
-  "kong-plugin-azure-functions ~> 0.4",
-  "kong-plugin-zipkin ~> 0.1",
+  "kong-plugin-azure-functions ~> 0.4.1",
+  "kong-plugin-zipkin ~> 0.2",
   "kong-plugin-serverless-functions ~> 0.3",
   "kong-prometheus-plugin ~> 0.6",
   "kong-proxy-cache-plugin ~> 1.2",
-  "kong-plugin-request-transformer ~> 1.2",
+  "kong-plugin-request-transformer ~> 1.2.4",
   "kong-plugin-session ~> 2.2",
-  "kong-plugin-aws-lambda ~> 3.0",
+  "kong-plugin-aws-lambda ~> 3.0.1",
 }
 build = {
   type = "builtin",
